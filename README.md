@@ -1,4 +1,4 @@
 # rsschool-cv
 
 ## link to cv
-https://github-TanyaMik.github.io/rsschool-cv/cv
+https://tanyamik.github.io/rsschool-cv/cv
