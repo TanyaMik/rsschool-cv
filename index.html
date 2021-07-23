@@ -5,33 +5,53 @@
     <meta name="viewport" content="width=h, initial-scale=1.0">
     <title>CV Mikulich Tatyana</title>
 </head>
-<body>
+<body class="wrapper">
     <style>
+        .wrapper {
+            border: 2px solid red; 
+            display:flex;
+            justify-content:center; 
+        }
         .block {
-          text-align: center;
-          border: 2px solid rgb(7, 7, 82);
+            width: 920px;
+            /* text-align: center; */
+            border: 2px solid rgb(7, 7, 82);
+        }
+        .wrapper1 {
+            display:flex;
+            /* justify-content: space-between;*/    
         }
 
         .nav {
-            text-align: center;
+            text-align: left;
+            padding: 0;
+            list-style-position: inside
         }
+
         h1 {
             font-size: 32px;
+        }
+
+        .info {
+            border: 2px solid green;
+            margin: 20px;
         }
 
       </style>
       
       <div class="block">
-          <h1>Mikulich Tatyana</h1>
-          <img src="/home/pashax0/Downloads/20210723_181526 (1).jpg" alt="Photo" width="250" height="280">
-          <section>
-              <h3>Contacts:</h3>
+           <div class="wrapper1">
+            <img src="/home/pashax0/Downloads/20210723_181526 (1).jpg" alt="Photo" width="250" height="280">
+              
+          <section class="info">
+            <h1>Mikulich Tatyana</h1>
+            <h3>Contacts:</h3>
               <ul class="nav">
                   <li>github: https://github.com/TanyaMik</li>
                   <li>email: sssladenkaya@gmail.com</li>
               </ul>
           </section>
-
+        </div>
       </div>
 
     
