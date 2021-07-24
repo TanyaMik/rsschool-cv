@@ -30,69 +30,101 @@
         .nav {
             text-align: left;
             padding: 0;
-            list-style-position: inside
+            list-style-position:outside;
+            list-style-type: none;
         }
 
         h1 {
             font-size: 32px;
         }
 
+        h3 {
+            font-size: 24px;
+        }
+
+        h3::before {
+            content: '❯';
+            position: relative;
+            bottom: 3px;
+            margin-right: 16px;
+            margin-bottom: 3px;
+            font-size: 16px;
+        }
+
         .info {
             border: 2px solid green;
-            margin: 20px;
+            margin-left: 20px;
         }
+
+        .section {
+            border: 2px solid green;
+            margin: 20px;  
+        }
+
+        p {
+            font-size: 20px;  
+        }
+
+        li {
+            font-size: 20px;  
+        }
+
+        .arrow {
+            font-size: 16px;
+        }
+
     </style>
 
     <article class="article">
-        <div class="block info">
+        <section class="block section">
             <div class="wrapper1">
                 <img src="/home/pashax0/Downloads/20210723_181526 (1).jpg" alt="Photo" width="250" height="280">
 
                 <section class="info">
                     <h1>Mikulich Tatyana</h1>
-                    <h3>Contacts:</h3>
-                    <ul class="nav">
-                        <li>github: https://github.com/TanyaMik</li>
-                        <li>email: sssladenkaya@gmail.com</li>
-                    </ul>
+                    <p>I want to become a high-class js-developer in a company,<br>
+                    where I can use my abilities.</p>
                 </section>
             </div>
-        </div>
-
-        <section class="info">
-            <h3>Info:</h3>
-            <p>I want to become a high-class js-developer in a company, where I can use my abilities.
-            </p>
         </section>
 
-        <section class="skills info">
-            <h3>Skills:</h3>
+        <section class="section">
+            <h3>CONTACTS</h3>
+
+            <ul class="nav">
+                <li>github: https://github.com/TanyaMik</li>
+                <li>email: sssladenkaya@gmail.com</li>
+            </ul>
+        </section>
+
+        <section class="skills section">
+            <h3>SKILLS</h3>
             <ul class="nav">
                 <li>HTML</li>
                 <li>CSS</li>
             </ul>
         </section>
 
-        <section class="code info">
-            <h3>Code examples:</h3>
+        <section class="code section">
+            <h3>CODE EXAMPLES</h3>
             <p>https://github.com/TanyaMik/rsschool-cv
             </p>
         </section>
 
-        <section class="experience info">
-            <h3>Experience:</h3>
+        <section class="experience section">
+            <h3>EXPERIENCE</h3>
             <p>RSS School JS/FE Pre-School
             </p>
         </section>
 
-        <section class="education info">
-            <h3>Education:</h3>
+        <section class="education section">
+            <h3>EDUCATION</h3>
             <p>2021 RSS School JS/FE Pre-School
             </p>
         </section>
 
-        <section class="english info">
-            <h3>English level:</h3>
+        <section class="english section">
+            <h3>ENGLISH LEVEL</h3>
             <p>Pre-intermediate
             </p>
         </section>
