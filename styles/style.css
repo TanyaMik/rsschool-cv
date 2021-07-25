@@ -1,0 +1,64 @@
+.article {
+    justify-content: center;
+    max-width: 920px;
+    margin: 0 auto;
+    border: solid 1px grey;
+}
+
+.wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    text-align: left;
+    padding: 0;
+    list-style-position:outside;
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h3::before {
+    content: '❯';
+    position: relative;
+    bottom: 3px;
+    margin-right: 16px;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.info {  
+    margin-left: 20px;
+}
+
+.section {
+    margin: 20px 20px 50px 20px;  
+}
+
+p {
+    font-size: 20px;  
+}
+
+li {
+    font-size: 20px;  
+}
+
+.arrow {
+    font-size: 16px;
+}
+
+.avatar {
+    max-width: 250px;
+    height: auto;
+}
+
+.code {
+    word-break: break-all;
+}
