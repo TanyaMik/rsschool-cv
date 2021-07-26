@@ -2,15 +2,17 @@
     justify-content: center;
     max-width: 920px;
     margin: 0 auto;
-    border: solid 1px grey;
+    border: solid 1px rgb(14, 14, 90);
 }
 
-.wrapper1 {
+.wrapper {
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(255, 217, 0);
+    padding: 20px;
 }
 
-.nav {
+.list {
     text-align: left;
     padding: 0;
     list-style-position:outside;
@@ -19,10 +21,12 @@
 
 h1 {
     font-size: 32px;
+    color:  rgb(14, 14, 90); 
 }
 
 h3 {
     font-size: 24px;
+    color: rgb(255, 217, 0);
 }
 
 h3::before {
@@ -34,6 +38,14 @@ h3::before {
     font-size: 16px;
 }
 
+
+.text_color_white {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+
 .info {  
     margin-left: 20px;
 }
@@ -42,12 +54,9 @@ h3::before {
     margin: 20px 20px 50px 20px;  
 }
 
-p {
-    font-size: 20px;  
-}
-
-li {
-    font-size: 20px;  
+p, small, li {
+    font-size: 20px;
+    color: rgb(14, 14, 90);  
 }
 
 .arrow {
@@ -61,4 +70,25 @@ li {
 
 .code {
     word-break: break-all;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    max-width: 880px;
+    border: solid 1px rgb(14, 14, 90);
+    padding: 20px;
+    margin:20px auto 0 auto;
+    flex-wrap: wrap;
+}
+
+.information {
+    font-size: 16px;
+}
+
+.link {
+    font-size: 16px;
+    color: rgb(14, 14, 90);  
 }
