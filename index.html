@@ -30,7 +30,7 @@
         </nav>
       </header>
 
-      <article class="section">
+      <div class="section">
         <div class="wrapper">
           <img
             class="avatar"
@@ -48,7 +48,7 @@
             </p>
           </section>
         </div>
-      </article>
+    </div>
 
       <section class="section" id="contacts">
         <h3>CONTACTS</h3>
@@ -72,8 +72,8 @@ if (!matrix) {
       return [];
   }
 let array = [];
-    for (let i = 0; i < matrix.length; i++) {
-        for (let j = 0; j < matrix[i].length; j++) {
+    for (let i = 0; i &lt; matrix.length; i++) {
+        for (let j = 0; j &lt; matrix[i].length; j++) {
             if (i%2 === 0) {
                 array.push(matrix[i][j]);
             } else {
@@ -101,8 +101,7 @@ let array = [];
     <footer>
       <div class="footer">
         <a class="link" href="https://github.com/TanyaMik"
-          >https://github.com/TanyaMik</a
-        >
+          >https://github.com/TanyaMik</a>
         <small>2021</small>
         <a class="link" href="https://rs.school/js/">
           <img
