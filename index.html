@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV Mikulich Tatyana</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </head>
+
+  <body>
+    <main class="article">
+      <header class="header">
+        <nav class="nav_header">
+          <ul class="nav">
+            <li><a href="#contacts">CONTACTS</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#code_examples">CODE EXAMPLES</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#english_level">ENGLISH LEVEL</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="section">
+        <div class="wrapper">
+          <img
+            class="avatar"
+            src="./images/20210723_181526.jpg"
+            alt="Photo"
+            width="250"
+            height="280"
+          />
+          <section class="info">
+            <h1>Mikulich Tatyana</h1>
+            <h2 class="text_color_white">beginner js-developer</h2>
+            <p>
+              I want to become a high-class js-developer in a company,<br />
+              where I can use my abilities.
+            </p>
+          </section>
+        </div>
+    </div>
+
+      <section class="section" id="contacts">
+        <h3>CONTACTS</h3>
+        <ul class="list">
+          <li>github: https://github.com/TanyaMik</li>
+          <li>email: sssladenkaya@gmail.com</li>
+        </ul>
+      </section>
+      <section class="skills section" id="skills">
+        <h3>SKILLS</h3>
+        <ul class="list">
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </section>
+      <section class="code section" id="code_examples">
+        <h3>CODE EXAMPLES</h3>
+        <pre><code>
+module.exports = function towelSort (matrix) {
+if (!matrix) {
+      return [];
+  }
+let array = [];
+    for (let i = 0; i &lt; matrix.length; i++) {
+        for (let j = 0; j &lt; matrix[i].length; j++) {
+            if (i%2 === 0) {
+                array.push(matrix[i][j]);
+            } else {
+                array.push(matrix[i][matrix[i].length-j-1]);
+            }
+        }
+    }
+    return array;
+}
+</code></pre>
+      </section>
+      <section class="experience section" id="experience">
+        <h3>EXPERIENCE</h3>
+        <p>RSS School JS/FE Pre-School</p>
+      </section>
+      <section class="education section" id="education">
+        <h3>EDUCATION</h3>
+        <p>2021 RSS School JS/FE Pre-School</p>
+      </section>
+      <section class="english section" id="english_level">
+        <h3>ENGLISH LEVEL</h3>
+        <p>Pre-intermediate</p>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <a class="link" href="https://github.com/TanyaMik"
+          >https://github.com/TanyaMik</a>
+        <small>2021</small>
+        <a class="link" href="https://rs.school/js/">
+          <img
+            src="./images/rs_school_js.svg"
+            alt="logo_rsschool"
+            width="100"
+            height="40"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
